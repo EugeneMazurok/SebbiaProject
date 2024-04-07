@@ -11,7 +11,40 @@
 		35A827332BC071C50018A23C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A827322BC071C50018A23C /* ContentView.swift */; };
 		35A827352BC071C60018A23C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A827342BC071C60018A23C /* Assets.xcassets */; };
 		35A827382BC071C60018A23C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A827372BC071C60018A23C /* Preview Assets.xcassets */; };
+		35A827402BC0769C0018A23C /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A8273F2BC0769C0018A23C /* CategoryViewModel.swift */; };
+		35C315DD2BC21D5400FFB7E6 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C315DC2BC21D5400FFB7E6 /* WebView.swift */; };
+		35FB95D62BC1596A004F9954 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FB95D52BC1596A004F9954 /* CategoryView.swift */; };
+		35FB95D82BC1772A004F9954 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FB95D72BC1772A004F9954 /* NewsListViewModel.swift */; };
+		35FB95DA2BC17994004F9954 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FB95D92BC17994004F9954 /* NewsListView.swift */; };
+		35FB95DC2BC1BD0A004F9954 /* NewsInListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FB95DB2BC1BD0A004F9954 /* NewsInListView.swift */; };
+		35FB95DE2BC1DFB2004F9954 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FB95DD2BC1DFB2004F9954 /* NewsViewModel.swift */; };
+		35FB95E02BC1E0FC004F9954 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FB95DF2BC1E0FC004F9954 /* NewsView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		35A827412BC0801B0018A23C /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		35A827422BC0801C0018A23C /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
 		35A8272D2BC071C50018A23C /* SebbiaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SebbiaProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +52,15 @@
 		35A827322BC071C50018A23C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35A827342BC071C60018A23C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35A827372BC071C60018A23C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35A8273F2BC0769C0018A23C /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		35C315DC2BC21D5400FFB7E6 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		35FB95D32BC14611004F9954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		35FB95D52BC1596A004F9954 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		35FB95D72BC1772A004F9954 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
+		35FB95D92BC17994004F9954 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
+		35FB95DB2BC1BD0A004F9954 /* NewsInListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsInListView.swift; sourceTree = "<group>"; };
+		35FB95DD2BC1DFB2004F9954 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		35FB95DF2BC1E0FC004F9954 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +93,11 @@
 		35A8272F2BC071C50018A23C /* SebbiaProject */ = {
 			isa = PBXGroup;
 			children = (
+				35C315DB2BC21D4A00FFB7E6 /* Tools */,
+				35FB95D42BC15950004F9954 /* Views */,
+				35FB95D32BC14611004F9954 /* Info.plist */,
+				35A8273E2BC076880018A23C /* Models */,
 				35A827302BC071C50018A23C /* SebbiaProjectApp.swift */,
-				35A827322BC071C50018A23C /* ContentView.swift */,
 				35A827342BC071C60018A23C /* Assets.xcassets */,
 				35A827362BC071C60018A23C /* Preview Content */,
 			);
@@ -67,6 +112,36 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		35A8273E2BC076880018A23C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				35A8273F2BC0769C0018A23C /* CategoryViewModel.swift */,
+				35FB95D72BC1772A004F9954 /* NewsListViewModel.swift */,
+				35FB95DD2BC1DFB2004F9954 /* NewsViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		35C315DB2BC21D4A00FFB7E6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				35C315DC2BC21D5400FFB7E6 /* WebView.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		35FB95D42BC15950004F9954 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35A827322BC071C50018A23C /* ContentView.swift */,
+				35FB95D52BC1596A004F9954 /* CategoryView.swift */,
+				35FB95D92BC17994004F9954 /* NewsListView.swift */,
+				35FB95DB2BC1BD0A004F9954 /* NewsInListView.swift */,
+				35FB95DF2BC1E0FC004F9954 /* NewsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,10 +154,14 @@
 				35A8272B2BC071C50018A23C /* Resources */,
 			);
 			buildRules = (
+				35A827422BC0801C0018A23C /* PBXBuildRule */,
+				35A827412BC0801B0018A23C /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
 			name = SebbiaProject;
+			packageProductDependencies = (
+			);
 			productName = SebbiaProject;
 			productReference = 35A8272D2BC071C50018A23C /* SebbiaProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +190,8 @@
 				Base,
 			);
 			mainGroup = 35A827242BC071C50018A23C;
+			packageReferences = (
+			);
 			productRefGroup = 35A8272E2BC071C50018A23C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +219,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				35A827332BC071C50018A23C /* ContentView.swift in Sources */,
+				35FB95DA2BC17994004F9954 /* NewsListView.swift in Sources */,
 				35A827312BC071C50018A23C /* SebbiaProjectApp.swift in Sources */,
+				35FB95E02BC1E0FC004F9954 /* NewsView.swift in Sources */,
+				35FB95D82BC1772A004F9954 /* NewsListViewModel.swift in Sources */,
+				35C315DD2BC21D5400FFB7E6 /* WebView.swift in Sources */,
+				35FB95DC2BC1BD0A004F9954 /* NewsInListView.swift in Sources */,
+				35FB95D62BC1596A004F9954 /* CategoryView.swift in Sources */,
+				35A827402BC0769C0018A23C /* CategoryViewModel.swift in Sources */,
+				35FB95DE2BC1DFB2004F9954 /* NewsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +364,7 @@
 				DEVELOPMENT_TEAM = Y9GLK74H4U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SebbiaProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +394,7 @@
 				DEVELOPMENT_TEAM = Y9GLK74H4U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SebbiaProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
